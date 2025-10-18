@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lila's Mystery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+
+        p.subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 5px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .book-image {
+            text-align: center;
+        }
+
+        img {
+            max-width: 300px;
+            height: auto;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lila's Mystery</h1>
+        <p class="subtitle">by Jayden Hanson</p>
+    </header>
+
+    <div class="gallery">
+        <div class="book-image">
+            <img src="cover1.jpg" alt="Front Cover of My Book">
+            <p class="caption">The Front Cover</p>
+        </div>
+        <div class="book-image">
+            <img src="cover2.jpg" alt="Back Cover of My Book">
+            <p class="caption">The Back Cover</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Lila's Mystery. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
